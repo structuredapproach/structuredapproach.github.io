@@ -1,0 +1,102 @@
+site_name: Structured Approach
+site_description: Experimental wiki for publishing on GitHub
+site_author: approachstructured@gmail.com
+site_dir: 'published_website'
+site_url: ""
+use_directory_urls: false
+theme:
+    name: material
+    font:
+      text: Roboto
+      code: Roboto Mono
+    logo: assets/images/logo.png
+    favicon: assets/images/logo.png
+    features:
+      - content.code.copy
+      # - content.code.select
+      # - content.code.annotate
+      - navigation.footer
+      - search.suggest
+      - search.highlight
+      - header.autohide 
+
+    palette:
+    # Dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+      primary: custom
+      accent: custom
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+      primary: custom
+      accent: cyan
+
+markdown_extensions:
+  - toc:
+      permalink: 🔗
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          # format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      # combine_header_slug: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  # - toc:
+  #     permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  # - pymdownx.emoji:
+      # emoji_index: !!python/name:material.extensions.emoji.twemoji
+      # emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tilde
+  - pymdownx.blocks.caption
+
+plugins:
+  - search
+  - offline
+  
+nav:
+  - index.md
+  - page 2.md
+
+extra_css:
+  - stylesheets/extra.css
+  
+copyright: Copyright &copy; 2025 approachstructured@gmail.com
