@@ -16,8 +16,8 @@ web as a last hope. To realise the vision, a progressive sequence of determined 
 [linked data](https://en.wikipedia.org/wiki/Linked_data), 
 the [Solid](https://en.wikipedia.org/wiki/Solid_(web_decentralization_project)) project
 and [Inrupt](https://www.inrupt.com/about) have inspired investment from many areas; 
-sadly, however, the hope is fading : progress has been slow and despite a period of encouraging growth 
-in interest around the turn of the decade, the investments of time and money have recently been declining. 
+sadly, however, progress has been slow and despite a period of encouraging growth in interest 
+around the turn of the decade, the investments of time and money remain smaller than hoped. 
 Some possible reasons for this are proposed.
 
 One obvious reason is that there is no inevitable demand. With the traditional web, demand was a given : 
@@ -43,70 +43,75 @@ where the possibility of targeting the end-user more directly is proposed.
 This document is published using [MkDocs](https://www.mkdocs.org/) to convert simple markdown text 
 files into HTML. It may be edited in response to comments and discussion witin the community [^1]
 so the [latest web page](https://structuredapproach.github.io/index.html) may be different to this
-[version on GitHub](https://github.com/structuredapproach/structuredapproach.github.io/blob/81f44f11c307ed2f6b624bd722d6759b6d6130dc/docs/index.md). 
+[version on GitHub](https://github.com/structuredapproach/structuredapproach.github.io/blob/b5448f183c9f42bc59f119b90e7b9e047147e15a/docs/index.md). 
 
-[^1]: link1, link2
+[^1]: Discussion links : [solidproject](https://forum.solidproject.org/t/pitching-rdf-at-individuals-with-data/10167), [Hacker News](https://news.ycombinator.com/item?id=46278612)
 
-##Mutual Dependency between Practitioners and Coders 
+##Mutual Dependency between Smiths and Coders 
 
 Advocates for the semantic web anticipate that the new technology for sharing structured information
 might grow along a similar course to the one which saw the growth of the traditional web for less-structured 
 information. The first time around professional coders in commercial organisations built on the public standards, 
-and created tools for practitioners to share information for the first time in a consistent way. The term 
-"practitioner" [^2] (i.e. user) is introduced here to describe the people to whom the information-to-be-shared has practical 
+and created website building tools which allowed info-smiths to share information for the first time in a consistent way. 
+The term "smith" [^2] is introduced here to describe the people to whom the information-to-be-shared has practical 
 value; in other words the people who represent the "demand-from-customers" in the introduction. 
-In short : the growth of the traditional web was shaped by a mutual dependency between practitioner and coder. 
+Conversely the term "coders" is used to represent the other side of the dependency (i.e. "investment-in-infrastructure").
+Where the growth of the traditional web was shaped by a mutual dependency between info-smiths and coders 
+(i.e. developers of website building platforms), the growth of the semantic web must similarly be shaped by 
+a mutual dependency between data-smiths and coders (i.e. developers of RDF endpoint building platforms) [^3].
 
-The growth of the semantic web must similarly shaped by a mutual dependency between practitioner and coder,
-and this time around practitioners who need convincing can be divided into three categories : 
-
-1. Those whose information exists and is already shared on the traditional less-structured web.
-2. Those whose information exists but is not shared, and is likely stored somewhere more structured than the web.
-3. Those whose information does not yet exist.
-
-Those in the category 1 need convincing that the semantic web is a better way to share. Those in 
-the categories 2 & 3 need convincing that putting their data into the semantic web won't compromise 
-its structure. Either way the prospective semantic web practitioner needs convincing away from 
-functioning alternatives, which is different to the traditional web where sharing was made possible
-for the first time.
-
-The ecosystem of interdependent tools and components was also shallower in the 90s : open-source tools 
-were not the norm and coders were accustomed to buying a few tools from a limited range of providers. 
-Today, in contrast, coders need to choose and combine multiple tools form a dizzying variety of largely 
-open-source providers. The tools are more powerful and sophisticated and can be connected together more 
-reliably in a deeper ecosystem, but the consequent increase in complexity has led to the emergence of 
-the data-specialist role to bridge the increasing gap between coders and practitioners. 
+The mutual dependency between smiths and coders is getting stretched due to an increase in complexity. 
+During the growth of the traditional web back in the 90s the infrastructure was simpler on both sides. 
+On one side coders were accustomed to buying a few tools from a limited range of providers. On the other
+side info-smiths were more likely to experiment directly themselves with the basic infrastructure, 
+without needing to rely on assistance from intermediate specialists. Today the situation is more 
+complex on both sides. On the platform coding side the ecosystem of interdependent tools and components is 
+deeper and more sophisticated : coders must choose and combine multiple tools from a dizzying variety 
+of largely open-source providers. On the other side info-smiths/data-smiths are faced with a more complicated
+array of tools with which to build websites/RDF endpoints. As the complexity has increased, intermediate 
+coding layers (such as frontend, backend, data scientist, ..) have appeared in between info-smith/data-smith 
+(end customer) and platform provider (web/RDF infrastructure).  
 
 [![chickenandegg](assets/images/500px-Maon_Mosaic_Hen.jpg){ width="100" style="float: left; margin: 0 15px 15px 0;" }](https://en.wikipedia.org/wiki/Chicken_or_the_egg)
 
-In summary :
+In summary the mutual dependency between info-smiths and coders during the creation of the traditional HTML web :
 
-- The mutual dependency between practitioners and coders was stronger and closer during the creation of 
-the traditional HTML web, when there was no choice.
+- was **stronger** because there was no choice
+- was **closer** because there weren't so many complex layers in-between
 
-The dependency is made weaker in the context of the semantic web by the option for practitioners to stick 
-with functioning alternatives. The dependency is also made more distant, with reduced mutual understanding, 
-by the increase in complexity and the positioning of data-specialists in between practitioners and coders. 
-The next section discusses this reduction in mutual understanding in more detail, and how it can undermine 
-mutual dependency.
+The next section discusses how this combination of weakening and distancing can undermine the mutual dependency
+and, from the perspective of an individual data-smith seeking to build a prrof-of-concept, lead to a situation 
+where using the semantic web appears to be more trouble than its worth.
 
-[^2]: The word "practitioner" can mean different things in different contexts. It is employed here in 
-the sense of the [merriam-webster](https://www.merriam-webster.com/dictionary/practitioner) definition :
-"one who practices or is regularly engaged in a skillful activity", and in particular here one who 
-is engaged in the practical application of something developed by software specialists.
-It it used in place of the word "user" to reduce the risk of implying passivity or ignorance.
+[^2]: The terms info-smith and data-smith are introduced here to describe people who work with information 
+and/or data, in a loosely similar way to a blacksmith works with iron, or a locksmith works with locks.
+These people, to whom the information-to-be-shared has practical value, can be seen as the customers whose 
+demand fuels the whole information economy. Where the traditional web is aimed at meeting a demand to share
+information, the semantic web is aimed at meeting a demand to share raw data (i.e. the individual values and 
+links which come together to produce meaningful information in the smith's mind).  
 
-##Practitioner's Understanding of Coders 
+[^3]: This time around the data-smiths who need convincing can be divided into three categories :   
+a. former info-smiths (Those whose information exists and is already shared on the traditional less-structured web.)  
+b. non-web data-smiths (Those whose information exists but is not shared in the web, and is likely stored somewhere more structured.)  
+c. new data-smiths (Those whose information does not yet exist.)  
+Those in the category 1 need convincing that the semantic web is a better way to share. Those in 
+the categories 2 & 3 need convincing that putting their data into the semantic web won't compromise 
+its structure. Either way the prospective semantic web data-smith needs convincing away from 
+functioning alternatives, which is different to the traditional web where sharing was made possible
+for the first time.
 
-Back in the 90s it wasn't unusual for practitioners, with information they wanted to store, manipulate 
+
+##Data-smiths's Understanding of Coders 
+
+Back in the 90s it wasn't unusual for data-smiths, with information they wanted to store, manipulate 
 and possibly share, to experiment with using coding tools themselves with an initial view towards 
 creating a quick pilot study around their information and, depending on how it looks, a subsequent 
 view towards the possibility of commissioning the development of an application. 
 A really simple place to start was often a spreadsheet; but storing information in cells makes 
-it more convenient for manual access and less convenient for automated access. Practitioners seeking 
+it more convenient for manual access and less convenient for automated access. Data-smiths seeking 
 a more structured and automation-friendly basis for storage could turn to products such as MS Access
 which integrates a relational database with an environment that supports basic coding, both together 
-in a single platform which supports intuitive learning for the practitioner with the business need.
+in a single platform which supports intuitive learning for the data-smith with the business need.
 
 Relational databases are a type of storage which offer read and write access through a structured 
 querying language (SQL) which is designed to provide a standardised interface that's usable by humans 
@@ -116,8 +121,8 @@ into understanding and experimenting with the kind of tools software specialists
 
 The burden of installing and maintaining a production-grade storage server today is much lighter.
 In some ways this removes the need for integrated products like MS Access since it is now realistic, 
-at least in theory, for practitioners to just use the same tools that professionals use. In practice
-however nothing has replaced the convenient integrated learning platform. The practitioner today,
+at least in theory, for data-smiths to just use the same tools that professionals use. In practice
+however nothing has replaced the convenient integrated learning platform. The data-smith today,
 seeking a more structured and automation-friendly alternative to their preliminary experimentation 
 with a spreadsheet, is faced with an overwhelming range of sophisticated and powerful options 
 and there's no central source of learning to guide them through the choice. 
@@ -127,13 +132,13 @@ backed up by confident, knowledgeable and independent advocates, learning how to
 time-consuming. The knowledgeable voices have also been joined recently by those of [vibe coders](https://en.wikipedia.org/wiki/Vibe_coding), empowered by AI to make rapid progress implementing 
 ideas with a low requirement for knowledge.
 Without personal experience it can be hard to put all the opinions and options into context and 
-it can feel risky, from the perspective of a practitioner with existing valuable data, to consider 
+it can feel risky, from the perspective of a data-smith with existing valuable data, to consider 
 moving the data into unfamiliar storage platform just in order to experiment with automation. 
 
 The semantic web, and in particular the Resource Description Framework [RDF](https://en.wikipedia.org/wiki/Resource_Description_Framework),
-is pitched as a storage platform for sharable structured data. From a practitioner's perspective,
+is pitched as a storage platform for sharable structured data. From a data-smith's perspective,
 however, the second part (structure) may be more important than the first (shareability). 
-Perhaps RDF could be pitched to practitioners instead as a storage platform for structured 
+Perhaps RDF could be pitched to data-smiths instead as a storage platform for structured 
 data which supports convenient querying by humans and algorithms alike, and has a secondary 
 benefit of being shareable.
 
@@ -142,19 +147,20 @@ benefit of being shareable.
 In summary :
 
 - The emergence of open-source low-maintenance services and tools has coincided with a reduction
-  in tools aimed at supporting practitioners (i.e. non-software-specialists) who wish to experiment
+  in tools aimed at supporting data-smiths (i.e. non-software-specialists) who wish to experiment
   with software development.
-- For practitioners whose data would be welcomed into the semantic web, structure will necessarily
-  be important and RDF is just one difficult-to-understand option among many.
+- For data-smiths whose data would be welcomed into the semantic web, structure will necessarily
+  be important and RDF is just one structured storage option among many, and is harder to understand
+  than other options. 
   
-The next section discusses the nature of structure in the practitioner's mind.
+The next section discusses the nature of structure in the data-smith's mind.
 
 ##Mind, Display & Storage : Three Models for Three Mediums
 
 All useable software has a purpose and exposes an intelligible interface; with the purpose being
-evident within internal models, and the interface allowing practitioners (i.e. users) to build 
+evident within internal models, and the interface allowing data-smiths (i.e. users) to build 
 a corresponding mental model. The user interface (UI) is a logical layout, structured in space 
-and/or time [^3], which we could call a display model, and which gets communicated to and influences 
+and/or time [^4], which we could call a display model, and which gets communicated to and influences 
 the user's mental model. In many cases there may also be a third model for storing
 information between sessions, and the user may or may not expect to have open access to the storage model.
 These three models are effectively the information structures in each of the three mediums. In the context 
@@ -167,7 +173,7 @@ of this document about the semantic web we are interested in cases where storage
 | 3  | disk         | storage model                       | ![disk   ](assets/images/model 3 disk.jpg   ){ width="40"}|
 
 
-[^3]: The logical layout can be either a graphical-user-interface ([GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)), 
+[^4]: The logical layout can be either a graphical-user-interface ([GUI](https://en.wikipedia.org/wiki/Graphical_user_interface)), 
 structured within a space on the screen and displayed via a platform equipped to cope with asynchronous graphical events, 
 or a callable interface ([CLI](https://en.wikipedia.org/wiki/Command-line_interface) 
 or [API](https://simple.wikipedia.org/wiki/Application_programming_interface)) 
@@ -249,12 +255,12 @@ explicit table definitions in a relational database. Alternatively [object datab
 can be used to allow the database to leverage type definitions in the coding model. Either way the need for 
 coders to coordinate dual explicit structure mappings manually is reduced or removed.
 
-From the perspective of a practitioner with existing valuable data who wishes to experiment with coding : 
+From the perspective of a data-smith with existing valuable data who wishes to experiment with coding : 
 explicit structure can be conceptually helpful. For example with MS-Access the act of structuring relational 
 database tables, if applicable to the data, reduces the mental burden of keeping track of all the intended fields 
 and types. In contrast, however, the coding model, which is based on Microsoft's [VBA language](https://en.wikipedia.org/wiki/Visual_Basic_for_Applications), 
 offers limited options for explicit structure and there is no scope for using ORM tools. In this way 
-a practitioner's choice to use MS-Access would effectively favour placing explicit structure in the storage 
+a data-smith's choice to use MS-Access would effectively favour placing explicit structure in the storage 
 model over placing it in the coding model. An alternative choice might be to experiment with a strongly typed 
 language, such as [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) or 
 [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)), to introduce explicit structure into 
@@ -266,20 +272,22 @@ than choosing one.
 
 In summary :
 
-- Whether in the storage model or the coding models or both, explicit structure can help a practitioner 
+- Whether in the storage model or the coding models or both, explicit structure can help a data-smith 
 to experiment with building automation around their information, but ...
 - ... other than MS-Access, which exists from a different era, there is a lack of single platforms aimed
-at supporting practitioners by offering a ready-made combination of storage and coding.
+at supporting data-smiths by offering a ready-made combination of storage and coding.
 
 ##Conclusion
 
 Query languages generally support a flexible way to interface with stored data. This is appealing 
-for practitioners with existing data, who are looking to add structure to it and to explore ideas for
+for data-smiths with existing data, who are looking to add structure to it and to explore ideas for
 developing one or more applications to interface with it. The integrated development tool [MS-Access](https://en.wikipedia.org/wiki/Microsoft_Access)
-was (and is) aimed at helping practitioners to use SQL. It might help if a similar integrated 
+was (and is) aimed at helping individual data-smiths to use SQL. It might help if a similar integrated 
 development tool was available for SPARQL. Instead of basing the tool on a proprietary language
 like [Visual Basic](https://en.wikipedia.org/wiki/Visual_Basic), the SPARQL tool might leverage 
 one or more popular open source languages which include superior support for explicit structure.
+Such a tool might persuade a specific group of people to use RDF who could prove important in 
+establishing it as a mainstream technology.
 
 ![loop](assets/images/loop.png){ width="600" style="margin: 0 15px 15px 0;" }
 
@@ -288,24 +296,36 @@ one or more popular open source languages which include superior support for exp
 3. Enter or modify data via application.  
 4. View data via application.  
 
-The future of the open semantic web depends on practitioners seeing value in using RDF to store their information.
-This is currently unlikely to happen, despite there being real value in using RDF to share their information, 
-and there being as much if not more value in using RDF to structure it. 
+The tool advocated by this article is aimed at a specific group of people : data-smiths whose work 
+generates information on an ongoing basis and who want to develop ways of capturing and using that 
+information, either individually or in a team; many scientists, engineers and analysts fall into this
+group. Various storage platforms are available to these data-smiths and the diagram above illustrates
+the nature of data interface when the choice of storage platform is towards open query languages such 
+as SPARQL.
 
-Practitioners for whom sharing is more important are likely to have already shared their information on the 
+The data-smiths to which the diagram applies are a relatively small subset of the people who it is 
+hoped will choose to adopt the semantic web. Broad adoption, however, depends on this subset of 
+individuals, and where applicable the organisations they work in, seeing value in RDF and chosing
+it as a platform to store their information. This is currently unlikely to happen, despite there being 
+real value in using RDF to share their information, and there being as much if not more value 
+in using RDF to structure it. 
+
+Data-smiths for whom sharing is more important are likely to have already shared their information on the 
 traditional web. Those for whom structuring is more important are likely to choose more established 
 storage alternatives which allow faster and easier progress. Although the capabilities offered by the 
 semantic web for structuring information as RDF are more sophisticated than those offered by relational 
 databases, they are in consequence also more challenging. In short the opportunities available to 
-practitioners via RDF are getting missed because it's unrealistic for them to piece together all 
+data-smiths via RDF are getting missed because it's unrealistic for them to piece together all 
 the complicated building blocks.
 
-If practitioners make the structure of their information explicit at all it is more likely to be within
+If data-smiths make the structure of their information explicit at all it is more likely to be within
 a coding model than within RDF. From this starting point an RDF tool offering similar functionality to ORM 
 tools for relational databases might help. Such a tool could use explicit structure from the coding model 
 to configure and manage RDF storage which reflected the same structure, thus piecing together the building 
-blocks on behalf of the practitioner.
+blocks on behalf of the data-smith.
 
-This article has been written to invite discussion. Thank you for reading and, if you have time, please share 
-your thoughts using one of the discussion links !
+![loop2](assets/images/loop2.png){ width="600" style="margin: 0 15px 15px 0;" }
+
+This article has been written to invite discussion. Thank you for reading and, if you have time, please 
+consider sharing your thoughts using one of the discussion links !
 
