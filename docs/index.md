@@ -43,7 +43,7 @@ where the possibility of targeting the end-user more directly is proposed.
 This document is published using [MkDocs](https://www.mkdocs.org/) to convert simple markdown text 
 files into HTML. It may be edited in response to comments and discussion witin the community [^1]
 so the [latest web page](https://structuredapproach.github.io/index.html) may be different to this
-[version on GitHub](https://github.com/structuredapproach/structuredapproach.github.io/blob/b5448f183c9f42bc59f119b90e7b9e047147e15a/docs/index.md). 
+[version on GitHub](https://github.com/structuredapproach/structuredapproach.github.io/blob/ebb4d55bbcdedbdc2dcc770bcd2de53e8f8714a6/docs/index.md). 
 
 [^1]: Discussion links : [solidproject](https://forum.solidproject.org/t/pitching-rdf-at-individuals-with-data/10167), [Hacker News](https://news.ycombinator.com/item?id=46278612)
 

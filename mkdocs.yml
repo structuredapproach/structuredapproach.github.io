@@ -94,6 +94,7 @@ plugins:
   
 nav:
   - index.md
+  - hello-webapi.md
   - page 2.md
 
 extra_css:
