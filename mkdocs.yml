@@ -1,5 +1,5 @@
 site_name: Structured Approach
-site_description: Experimental wiki for publishing on GitHub
+site_description: Suggestions for making software serve humans.
 site_author: approachstructured@gmail.com
 site_dir: 'published_website'
 site_url: ""
@@ -94,10 +94,12 @@ plugins:
   
 nav:
   - index.md
-  - hello-webapi.md
+  - assorted/01_DVCSwhy.md
+  - assorted/02_DVCSwhat.md
+  - assorted/00_hello-webapi.md
   - page 2.md
 
 extra_css:
   - stylesheets/extra.css
   
-copyright: Copyright &copy; 2025 approachstructured@gmail.com
+copyright: Copyright &copy; 2026 approachstructured@gmail.com
